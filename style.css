@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 100px;
+}
+
+#layout {
+  display: flex;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-left: 3px;
+  margin-right: 10px;
+}
+
+svg {
+  margin-right: 20px;
+  border: 1px solid #ddd;
+}
+
+.nodes circle {
+  stroke: white;
+  stroke-width: 2px;
+  fill: lightsteelblue;
+}
+
+.nodes circle.highlight {
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.links line {
+  stroke: #bbb;
+  stroke-width: 1.5;
+}
+
+.links line.highlight {
+  stroke: steelblue;
+  stroke-width: 2;
+}
+
+.nodes circle.highlight,
+.links line.highlight {
+  transition: stroke 100ms ease-in-out;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr.highlight {
+  color: white;
+  background-color: steelblue;
+  transition: all 100ms ease-in-out;
+}
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 6px;
+}
