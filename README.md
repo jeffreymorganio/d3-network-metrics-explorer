@@ -74,7 +74,7 @@ The network view is created with a [D3 force-directed](https://bl.ocks.org/mbost
 
 ## Tabulating the Network Metrics
 
-The tablular view of the network metrics is built with D3 using the centrality measure values for each node in `kkg.json` to populate the table and the array of centrality measure names in `centrality-measures.json` to name the columns.
+The tabular view of the network metrics is built with D3 using the centrality measure values for each node in `kkg.json` to populate the table and the array of centrality measure names in `centrality-measures.json` to name the columns.
 
 ## Coordinating the Views
 
