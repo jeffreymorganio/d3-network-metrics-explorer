@@ -3,7 +3,7 @@
 This project builds a coordinated network and table visualization with Python and [D3](https://d3js.org/) for exploring various network centrality measures.
 
 <div>
-  <img src="http://usabilityetc.github.io/assets/d3-network-metrics-explorer/d3-network-metrics-explorer.png" alt="Combined/Colors">
+  <img src="http://usabilityetc.github.io/d3-network-metrics-explorer/d3-network-metrics-explorer.png" alt="Combined/Colors">
 </div>
 
 Watch the [D3 Network Metrics Explorer](https://youtu.be/Z5J10UfH4rA) video on YouTube. Try the [live demo](https://usabilityetc.github.io/demos/d3-network-metrics-explorer).
