@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="script.js"></script>
+  <title>D3 Krackhardt Kite Network</title>
+</head>
+<body>
+
+  <h1>D3 Krackhardt Kite Network</h1>
+
+  <div id="controls"></div>
+
+  <div id="layout">
+    <svg></svg>
+    <table></table>
+  </div>
+
+  <h2><a href="https://github.com/UsabilityEtc/d3-network-metrics-explorer">Source</a></h2>
+
+  <script>
+    d3.queue()
+      .defer(d3.json, "kkg.json")
+      .defer(d3.json, "centrality-measures.json")
+      .await(createNetworkVisualization);
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "centrality": {
+        "degree": 0.4444444444444444,
+        "betweenness": 0.023148148148148143,
+        "closeness": 0.5294117647058824,
+        "eigenvector": 0.35220918419838565
+      }
+    },
+    {
+      "id": "1",
+      "centrality": {
+        "degree": 0.4444444444444444,
+        "betweenness": 0.023148148148148143,
+        "closeness": 0.5294117647058824,
+        "eigenvector": 0.35220918419838565
+      }
+    },
+    {
+      "id": "2",
+      "centrality": {
+        "degree": 0.3333333333333333,
+        "betweenness": 0.0,
+        "closeness": 0.5,
+        "eigenvector": 0.28583482369644964
+      }
+    },
+    {
+      "id": "3",
+      "centrality": {
+        "degree": 0.6666666666666666,
+        "betweenness": 0.10185185185185183,
+        "closeness": 0.6,
+        "eigenvector": 0.481020669200118
+      }
+    },
+    {
+      "id": "4",
+      "centrality": {
+        "degree": 0.3333333333333333,
+        "betweenness": 0.0,
+        "closeness": 0.5,
+        "eigenvector": 0.28583482369644964
+      }
+    },
+    {
+      "id": "5",
+      "centrality": {
+        "degree": 0.5555555555555556,
+        "betweenness": 0.23148148148148148,
+        "closeness": 0.6428571428571429,
+        "eigenvector": 0.3976909028137205
+      }
+    },
+    {
+      "id": "6",
+      "centrality": {
+        "degree": 0.5555555555555556,
+        "betweenness": 0.23148148148148148,
+        "closeness": 0.6428571428571429,
+        "eigenvector": 0.3976909028137205
+      }
+    },
+    {
+      "id": "7",
+      "centrality": {
+        "degree": 0.3333333333333333,
+        "betweenness": 0.38888888888888884,
+        "closeness": 0.6,
+        "eigenvector": 0.19586101425312444
+      }
+    },
+    {
+      "id": "8",
+      "centrality": {
+        "degree": 0.2222222222222222,
+        "betweenness": 0.2222222222222222,
+        "closeness": 0.42857142857142855,
+        "eigenvector": 0.04807425308073236
+      }
+    },
+    {
+      "id": "9",
+      "centrality": {
+        "degree": 0.1111111111111111,
+        "betweenness": 0.0,
+        "closeness": 0.3103448275862069,
+        "eigenvector": 0.011163556091491361
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "source": "0",
+      "target": "5"
+    },
+    {
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "source": "1",
+      "target": "6"
+    },
+    {
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "source": "2",
+      "target": "5"
+    },
+    {
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "source": "3",
+      "target": "5"
+    },
+    {
+      "source": "3",
+      "target": "6"
+    },
+    {
+      "source": "4",
+      "target": "6"
+    },
+    {
+      "source": "5",
+      "target": "6"
+    },
+    {
+      "source": "5",
+      "target": "7"
+    },
+    {
+      "source": "6",
+      "target": "7"
+    },
+    {
+      "source": "7",
+      "target": "8"
+    },
+    {
+      "source": "8",
+      "target": "9"
+    }
+  ]
+}

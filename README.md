@@ -6,7 +6,7 @@ This project builds a coordinated network and table visualization with Python an
   <img src="http://usabilityetc.github.io/d3-network-metrics-explorer/d3-network-metrics-explorer.png" alt="Combined/Colors">
 </div>
 
-Watch the [D3 Network Metrics Explorer](https://youtu.be/Z5J10UfH4rA) video on YouTube. Try the [live demo](https://usabilityetc.github.io/demos/d3-network-metrics-explorer).
+Watch the [D3 Network Metrics Explorer](https://youtu.be/Z5J10UfH4rA) video on YouTube. Try the [live demo](https://usabilityetc.github.io/d3-network-metrics-explorer/demo/).
 
 # Python
 
